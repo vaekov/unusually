@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+  <head>
+ <!-- <script src="script/app.js"></script>-->
+  <link href="CSS/style.css" rel="stylesheet">
+  <!-- Кодировка страницы-->
+  <meta charset="utf-8"/> 
+  <meta name="viewport" content="width=device-width">
+  <title>unusually Грузоперевозки</title>
+  <link rel="shortcut icon" href="../My_First_Site/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <!-- Тело сайта, отвечает за вывод на страницу-->
+<header id="header">
+	<div class="nav">
+	  <h1 id="amblema"><i> </i>unusually</h1>
+	  <a id="phone" href="tel:+79161184188">+7 (916) 118-41-88</a>
+	</div>
+  </header>
+  
+  <main>
+	<div class="block1">
+		<div class="block1_1 container">
+			<h1>Частные грузоперевозки по Москве и Московсой области</h1>
+			<button class="butt" id="open_pop_up"type="submit" value="order">ОТПРАВИТЬ ЗАЯВКУ</button>
+			<div class="popup" id="popup">
+				<form class="form formup" id="myForm" method="post" action="/send.php">
+				<input class="inp" type="text" placeholder="Введите вашу фамилию" name="firstName" required>
+				<input class="inp" type="text" placeholder="Введите ваше имя" name="name" required>
+				<input class="inp" type="tel" placeholder="Введите ваш телефон" name="phone" required>
+				<button class="butt" type="submit" name="act" value="order">ОТПРАВИТЬ ЗАЯВКУ</button>
+				
+				<div class="popup_close" id="close_pop_up">&#10060;</div>	
+				</form>
+			</div>
+			
+		</div>
+	</div>
+	<div class="block2 container">
+		<h2>Мы занимаемся транспортировкой грузов различной степени сложности по доступным и приятным ценам</h2>
+		<div class="cards">
+			<div class="box box1">
+				<div class="pict pict1"><img src="../My_First_Site/images/pict1.png" alt="грузовик с коробками"></div>
+				<p>Бережная доставка вашего груза</p>
+			</div>
+			<div class="box box2">
+				<div class="pict pict2"><img src="../My_First_Site/images/money.png" alt="Долар"></div>
+				<p>Стоимость грузовой перевозки от 1000 рублей</p>
+			</div>
+			<div class="box box3">
+				<div class="pict pict3"><img src="../My_First_Site/images/clock.png" alt="Часы"></div>
+				<p>Доставим вовремя</p>
+			</div> 
+		
+		</div>
+	</div>
+	<div class="block3" >
+		<div class="block3_1 container">
+			<h2>Категории перевозок</h2>
+			<div class="list">
+				<div class="column">
+					<div class="cell">Малогабаритные от 1 кг</div>
+					<div class="cell">Сборные</div>
+					<div class="cell">Перевозка оборудования</div>
+					<div class="cell">до 1 тонны</div>
+				</div>
+				<div class="column">
+					<div class="cell">Доставка посылок</div>
+					<div class="cell">Вещи</div>
+					<div class="cell">Животные</div>
+					<div class="cell">Строительные грузы</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="block4 container">
+		<h2>Оставьте заявку на перевозку груза и мы вам позвоним</h2>
+		<form class="form" id="myForm" method="post" action="/send.php">
+				<input class="inp" type="text" placeholder="Введите вашу фамилию" name="firstName" required>
+				<input class="inp" type="text" placeholder="Введите ваше имя" name="name" required>
+				<input class="inp" type="tel" placeholder="Введите ваш телефон" name="phone" required>
+			<button class="butt" type="submit" name="act" value="order">ОТПРАВИТЬ ЗАЯВКУ</button>
+		</form>
+		
+	</div>
+  </main>
+  <footer>
+	<div class="icon">
+	  <a href="https://vk.com/id59952742"><img src="../My_First_Site/images/vkontakte.png" alt="vkontakte"></a>
+	  <a href="https://vk.com/away.php?to=https%3A%2F%2Finstagram.com%2Fhikolai88%3Futm_medium%3Dcopy_link&cc_key="><img src="../My_First_Site/images/instagram.png" alt="instagram"></a>
+	  <a href="#"><img src="../My_First_Site/images/telegram.png" alt="telegram"></a>
+	</div>  
+  </footer>
+  <script src="script/app.js"></script>
+</body>
+</html>
